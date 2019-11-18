@@ -2,7 +2,7 @@ package arrays;
 
 public class DuplicatesNumber {
     public static void main(String[] args) {
-        int arr[] = {1, 2, 6, 3, 1, 3, 6, 6};
+        int[] arr = {1, 2, 6, 3, 1, 3, 6, 6};
         int n = arr.length;
 
         findDuplicates3(arr, n);
